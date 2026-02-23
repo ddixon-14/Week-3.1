@@ -1,5 +1,6 @@
 import seaborn as sns
 import pandas as pd
+import numpy as np
 
 
 """Fib(n) returns the n'th number of the Fibonacci series"""
@@ -33,10 +34,9 @@ has the least missing values and the last column has the most
 
 4. Return a list of the 5 most common professions in order of prevalence"""
 
-#QUESTION: Since the bellevue data is not working as per the lab, is there a separate set we should use?
-#I've opted to write small code snippets that I would use in the functions.
-# import pandas as pd
-# url = 'https://github.com/melaniewalsh/Intro-Cultural-Analytics/raw/master/book/data/bellevue_almshouse_modified.csv'
+
+
+url = 'https://github.com/melaniewalsh/Intro-Cultural-Analytics/raw/master/book/data/bellevue_almshouse_modified.csv'
 
 # df_bellevue = pd.read_csv(url)
 # df_bellevue = pd.read_csv('./data/.../mydata.csv')  # you can also reference locally stored data

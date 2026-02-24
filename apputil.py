@@ -37,12 +37,14 @@ has the least missing values and the last column has the most
 
 
 url = 'https://github.com/melaniewalsh/Intro-Cultural-Analytics/raw/master/book/data/bellevue_almshouse_modified.csv'
-
-# df_bellevue = pd.read_csv(url)
-# df_bellevue = pd.read_csv('./data/.../mydata.csv')  # you can also reference locally stored data
+df_bellevue = pd.read_csv(url)
 
 # Pt.1 return sorted column names 
-# df_bellevue.columns.sort()
+def task_1():
+    df_bellevue.columns.sort()
+
+print(df_bellevue.head())
+
 
 # Pt. 2 return df w/two columns year and totaly admissions 
 # df_admissions_per_year = df_bellevue[['year', 'total_admissions']]
